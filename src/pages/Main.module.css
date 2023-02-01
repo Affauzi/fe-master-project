@@ -1,75 +1,16 @@
-.ocean {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	height: 100%;
-	width: auto;
-	z-index: 0;
-	max-width: 100%;
-	background-image: url(../assets/ocean.jpg);
-}
-
-.boat {
-	animation: linear infinite;
-	animation-name: run;
-	animation-duration: 40s;
+.main {
+	background-image: linear-gradient(#0a2647, #144272, #205295, #2c74b3);
 	position: absolute;
-	top: 390px;
-}
-.boat2 {
-	animation: linear infinite;
-	animation-name: run;
-	animation-duration: 30s;
-	position: absolute;
-	top: 400px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
-.boat3 {
-	animation: linear infinite;
-	animation-name: run2;
-	animation-duration: 30s;
-	position: absolute;
-	top: 400px;
+.leftTitle {
+	margin-left: 10em;
 }
 
-@keyframes run {
-	0% {
-		left: -300px;
-		transform: translateX(100%);
-	}
-	100% {
-		left: 2000px;
-		transform: translateX(-100%);
-	}
-}
-
-@keyframes run2 {
-	0% {
-		right: -300px;
-		transform: translateX(100%);
-	}
-	100% {
-		right: 2000px;
-		transform: translateX(-100%);
-	}
-}
-
-.bird {
-	animation: linear infinite;
-	animation-name: fly;
-	animation-duration: 10s;
-	position: absolute;
-	top: 90px;
-}
-
-@keyframes fly {
-	0% {
-		right: -100px;
-		transform: translateX(-100px) translateY(-100%);
-	}
-	100% {
-		right: 2000px;
-		transform: translateX(5%) translateY(100%);
-	}
+.rightInfo {
+	margin-right: 10em;
 }
